@@ -7,13 +7,13 @@ fetch("https://favqs.com/api/qotd")
       "result"
     ).innerHTML = `<div class="quoteresult">
     Quotes ${data.quote.id} by <big>${data.quote.author}</big>.
-    <br/> <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/i_collection_png/32x32/plain/tag.png" alt="tag"/> tags: (${
+    <br/> <img src="https://freeicons.io/laravel/public/uploads/icons/png/19550183341535694872-128.png" alt="tag"/> tags: (${
       data.quote.tags
     })
     <br/>
     <br/>
     ${data.quote.body}
-    <hr/>
+    <div><hr/></div>
     <a href="${data.quote.url}">Source</a>
     <br/>
     <br/>
