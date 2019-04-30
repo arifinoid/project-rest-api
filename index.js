@@ -6,13 +6,13 @@ fetch("https://favqs.com/api/qotd")
     let quoteResult = (document.getElementById(
       "result"
     ).innerHTML = `<div class="quoteresult">
-    Quotes ${data.quote.id} by <big>${data.quote.author}</big>.
+    Quotes ${data.quote.id} by <span class="author">${data.quote.author}</span>.
     <br/> <img src="https://freeicons.io/laravel/public/uploads/icons/png/19550183341535694872-128.png" alt="tag"/> tags: (${
       data.quote.tags
     })
     <br/>
     <br/>
-    ${data.quote.body}
+    “${data.quote.body}”
     <div><hr/></div>
     <a href="${data.quote.url}">Source</a>
     <br/>

@@ -93,6 +93,10 @@ hr {
   width: 150px;
 }
 
+span.author {
+  font-weight: 400;
+}
+
 img {
   width: 17px;
   margin-left: 10px;
