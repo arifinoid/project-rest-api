@@ -108,3 +108,9 @@ div.quoteresult {
   border-width: 1px;
   border-color: rgba(151, 149, 149, 0.363);
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  align-self: center;
+}
